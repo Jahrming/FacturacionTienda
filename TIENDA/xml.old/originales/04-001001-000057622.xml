@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<notaCredito id="comprobante" version="1.0.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>COJAPAN CIA. LTDA.</razonSocial>
+        <nombreComercial>COMERCIAL JAPONESA AUTOMOTRIZ COJAPAN CIA.LTDA.</nombreComercial>
+        <ruc>0990049777001</ruc>
+        <claveAcceso>2909201704099004977700120010010000576221234567812</claveAcceso>
+        <codDoc>04</codDoc>
+        <estab>001</estab>
+        <ptoEmi>001</ptoEmi>
+        <secuencial>000057622</secuencial>
+        <dirMatriz>MACHALA Y HURTADO</dirMatriz>
+    </infoTributaria>
+    <infoNotaCredito>
+        <fechaEmision>29/09/2017</fechaEmision>
+        <dirEstablecimiento>Av. 25 de Junio S/N y Banaoro</dirEstablecimiento>
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        <razonSocialComprador>CAPA SARANGO OLGA ALEJANDRINA</razonSocialComprador>
+        <identificacionComprador>0703928945001</identificacionComprador>
+        <obligadoContabilidad>SI</obligadoContabilidad>
+        <codDocModificado>01</codDocModificado>
+        <numDocModificado>001-001-000428396</numDocModificado>
+        <fechaEmisionDocSustento>17/07/2017</fechaEmisionDocSustento>
+        <totalSinImpuestos>45.64</totalSinImpuestos>
+        <valorModificacion>51.12</valorModificacion>
+        <moneda>DOLAR</moneda>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>3</codigoPorcentaje>
+                <baseImponible>45.64</baseImponible>
+                <valor>5.48</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <motivo>DEVOLUCION</motivo>
+    </infoNotaCredito>
+    <detalles>
+        <detalle>
+            <codigoInterno>ME-011207-C</codigoInterno>
+            <descripcion>BARRAS LEVA          MITSUBISHI CANTER 4D30/4D31               TIP-CHI</descripcion>
+            <cantidad>1.00</cantidad>
+            <precioUnitario>54.990</precioUnitario>
+            <descuento>9.35</descuento>
+            <precioTotalSinImpuesto>45.64</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>3</codigoPorcentaje>
+                    <tarifa>12.00</tarifa>
+                    <baseImponible>45.64</baseImponible>
+                    <valor>5.48</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="Email">info@cojapan.com.ec</campoAdicional>
+    </infoAdicional>
+</notaCredito>

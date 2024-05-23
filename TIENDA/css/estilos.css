@@ -1,0 +1,48 @@
+body
+{
+	background: url(../imagenes/fondo3.jpg);
+}
+
+header 
+{	
+	margin-top: 4%;
+	margin-right: 2%;
+	margin-left: 2%;
+	text-align: center;
+}
+
+section 
+{
+	margin-right: 2%;
+	margin-left: 2%;
+	margin-top: 1%;
+}
+ 
+.logo0
+{
+   position:relative;
+   top:center;
+   left:-40px;
+}
+
+.logo1
+{
+   position:absolute;
+   top:center;
+   left:50px;
+}
+
+.pad-basic
+{
+	padding:.5%; 
+}
+
+.no-btm
+{
+	margin-bottom:0%;
+}
+
+.btn-der
+{
+	text-align: right;
+}

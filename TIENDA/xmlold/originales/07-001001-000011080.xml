@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comprobanteRetencion id="comprobante" version="1.0.0">
+<infoTributaria>
+<ambiente>2</ambiente>
+<tipoEmision>1</tipoEmision>
+<razonSocial>COJAPAN CIA. LTDA.</razonSocial>
+<nombreComercial>COMERCIAL JAPONESA AUTOMOTRIZ COJAPAN CIA.LTDA.</nombreComercial>
+<ruc>0990049777001</ruc>
+<claveAcceso>0000000000000000000000000000000000000000000000000</claveAcceso>
+<codDoc>07</codDoc>
+<estab>001</estab>
+<ptoEmi>001</ptoEmi>
+<secuencial>000011080</secuencial>
+<dirMatriz>MACHALA Y HURTADO</dirMatriz>
+</infoTributaria>
+<infoCompRetencion>
+<fechaEmision>05/05/2018</fechaEmision>
+<dirEstablecimiento>EL ORO Y LA 43 AVA ESQUINA</dirEstablecimiento>
+<obligadoContabilidad>SI</obligadoContabilidad>
+<tipoIdentificacionSujetoRetenido>04</tipoIdentificacionSujetoRetenido>
+<razonSocialSujetoRetenido>IVAN ROBERTO UBILLA MOLINEROS</razonSocialSujetoRetenido>
+<identificacionSujetoRetenido>0919800805001</identificacionSujetoRetenido>
+<periodoFiscal>05/2018</periodoFiscal>
+</infoCompRetencion>
+<impuestos>
+<impuesto>
+<codigo>1</codigo>
+<codigoRetencion>304</codigoRetencion>
+<baseImponible>       1771.00</baseImponible>
+<porcentajeRetener>   8.00</porcentajeRetener>
+<valorRetenido>        141.68</valorRetenido>
+<codDocSustento>01</codDocSustento>
+<numDocSustento>001001000000155</numDocSustento>
+<fechaEmisionDocSustento>04/05/2018</fechaEmisionDocSustento>
+</impuesto>
+</impuestos>
+<infoAdicional>
+<campoAdicional nombre="Email">info@cojapan.com.ec</campoAdicional>
+</infoAdicional>
+</comprobanteRetencion>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

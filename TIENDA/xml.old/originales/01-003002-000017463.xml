@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<factura id="comprobante" version="1.0.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>      PRUEBAS    2 ES PRODUCCION
+        <tipoEmision>1</tipoEmision>    EMISION NORMAL 1
+        <razonSocial>LUCIO BENAVIDES FAUSTO IVAN</razonSocial>   NOMBRE DE LA EMPRESA
+        <nombreComercial>ESTACION DE SERVICIO SAN JOSE</nombreComercial> NOMBRE COIMERCIAL 
+        <ruc>0201455011001</ruc> RUC
+        <claveAcceso>2711201801020145501100120030020000174631234567817</claveAcceso> 49 CEROS
+        <codDoc>01</codDoc>    01 FACTURA 
+        <estab>003</estab>     LOCAL DONDE ESTA
+        <ptoEmi>002</ptoEmi>   ES LA CAJA DEFUALT 1
+        <secuencial>000017463</secuencial>    SECUENCIAL DEL SRI PARA LA FACTURA ----> DEL BLOCK DE FACTURAS
+        <dirMatriz>Via a Chimbo</dirMatriz>   DIRECCION MATRIZ
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>27/11/2018</fechaEmision> FECHA DE LA FACTURA
+        <dirEstablecimiento>Casaguaico Via Chimbo</dirEstablecimiento>  DIRECCION DE LOCAL DONDE ESTA FACTURANDO
+        <contribuyenteEspecial>000</contribuyenteEspecial>  SI ES CONTRIBUYENTE ESPECIAL TIENE UN NUMERO DE 3 DIGITOS SINO ES 000
+        <obligadoContabilidad>SI</obligadoContabilidad>     SI ES OBLIGADO A LLEVAR CONTABILIDAD
+        <tipoIdentificacionComprador>07</tipoIdentificacionComprador>  04-> CEDULA 05-> RUC 07-> CONSUMIDOR FINAL
+        <guiaRemision>000-000-000000000</guiaRemision> ---> 00000000
+        <razonSocialComprador>CONSUMIDOR FINAL</razonSocialComprador> ---> NOMBRE DEL CLIENTE
+        <identificacionComprador>9999999999999</identificacionComprador>  -----> CEDULA DEL CLIENTE
+        <direccionComprador>SAN JOSE DE CHIMBO</direccionComprador> -----> DIRECCION DEL CLIENTE comsumidor final la misma del local
+        <totalSinImpuestos>4.46</totalSinImpuestos>    ----> SIUBTOTAL SIN CARGAR IVA
+        <totalSubsidio>2.34</totalSubsidio> -----> 0 TOTAL SUBSIDIO
+        <totalDescuento>0</totalDescuento> ----> DESCUENTO DE LA FACURA
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>  ----> CODIGO 2 ES UN IMPUESTO 
+                <codigoPorcentaje>2</codigoPorcentaje> ---> 2 = 12%   (0)  cero o 2 
+                <baseImponible>4.46</baseImponible> --->  siempre imponible siempre ira asi se que el codigo sea iva cero
+                <valor>0.54</valor> 
+            </totalImpuesto>
+            <totalImpuesto>
+                <codigo>2</codigo>  ----> CODIGO 2 ES UN IMPUESTO 
+                <codigoPorcentaje>0</codigoPorcentaje> ---> 2 = 12%   (0)  cero o 2 
+                <baseImponible>4.46</baseImponible> ---> 
+                <valor>0.54</valor> 
+            </totalImpuesto>            
+        </totalConImpuestos>
+
+
+        <propina>0</propina>
+        <importeTotal>5.0</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>01</formaPago>    ------> segun la tabla
+                <total>5.0</total>
+            </pago>
+
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>EXT</codigoPrincipal>   codigo item
+            <codigoAuxiliar>EXT</codigoAuxiliar>     codigo aux
+            <descripcion>Extra</descripcion>    descrioc
+            <cantidad>3.016409</cantidad> camtidad
+            <precioUnitario>1.48</precioUnitario> preciounit
+            <precioSinSubsidio>2.254103</precioSinSubsidio> 0
+            <descuento>0</descuento> sique tuviera
+            <precioTotalSinImpuesto>4.46</precioTotalSinImpuesto> sin impuesto
+            <impuestos>
+                <impuesto>  ----- codificacion como la cabecera
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12.0</tarifa>
+                    <baseImponible>4.46</baseImponible> siempre ira
+                    <valor>0.54</valor> ---
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="Email:">email del cliente</campoAdicional>
+    </infoAdicional>
+</factura>

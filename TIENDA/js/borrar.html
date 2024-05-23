@@ -1,0 +1,19 @@
+<html>
+<body>
+
+<p>Click the button to display the fixed number.</p>
+
+<button onclick="myFunction(6.22556 , 2)">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction(numero, decimales) {
+    var numero = numero.toFixed(decimales);
+    alert(numero);
+    document.getElementById("demo").innerHTML = numero;
+}
+</script>
+
+</body>
+</html>
